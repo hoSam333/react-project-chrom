@@ -1,0 +1,9 @@
+.Slider2 .sliding {
+    background-color: #abaaaa;
+    padding: 20px;
+}
+.Slider2 .sliding div img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}

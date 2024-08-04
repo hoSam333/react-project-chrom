@@ -1,0 +1,44 @@
+nav{
+    background-color: #3d464d!important;
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-size: 23px !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 20px !important;
+}
+.nav-link:hover , 
+.nav-link.active{
+    color: var(--main-color) !important ;
+}
+.icons{
+    color: #000;
+    font-size: 20px;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons a .icon{
+    color: var(--main-color);
+    font-size: 20px;
+}
+.dropdown-menu{
+    background-color: var(--main-color) !important;
+    padding: 10px !important;
+    width:  200px ;
+}
+.moon{
+    font-size: 25px;
+    color: aqua;
+    cursor: pointer;
+    animation:  dark 2s linear infinite  ;
+}
+@keyframes dark {
+    100%{
+        transform: rotate(360deg);
+    }
+}

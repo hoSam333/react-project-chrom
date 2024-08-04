@@ -1,0 +1,51 @@
+.Cart .singlepro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    
+}
+
+.Cart .singlepro img{
+    width: 100px;
+    height: 100px;
+}
+.Cart .singlepro .btn-danger{
+    height: max-content;
+}
+.Cart .singlepro p{
+    margin: 0;
+}
+.Cart .singlepro .count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.Cart .singlepro .count button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+    outline: 2px solid #000;
+    cursor: pointer;
+}
+.Cart .singlepro span{
+    font-size: 25px;
+    font-style: italic;
+
+}
+.Cart .totall{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}

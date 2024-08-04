@@ -1,0 +1,86 @@
+.Header {}
+.sliderr{
+}
+.mens{
+    background-image:  linear-gradient(rgba( 20,20,20,0.7 )  , rgba(20,25,27,0.5))  , url(../../assets/images/carousel-1-B1coVWNc.jpg);
+    height: 400px;
+}
+.women{
+    background-image: linear-gradient(rgba( 20,20,20,0.7 )  , rgba(20,25,27,0.5))  ,  url(../../assets/images/carousel-2--2x9VnkY.jpg);
+    height: 400px;
+}
+.kids{
+    background-image:  linear-gradient(rgba( 20,20,20,0.7 )  , rgba(20, 25, 27, 0.66))  , url(../../assets/images/carousel-3-CkLdEAwA.jpg);
+    height: 400px;
+}
+
+.mens div , 
+.women div , 
+.kids div {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding:  0 50px;
+}
+
+.mens div b , 
+.women div b , 
+.kids div  b{
+    font-size: 25px;
+}
+
+
+ button{
+    padding: 15px 20px ;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: var(--main-color);
+
+}
+
+
+.right{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.right .one{
+    height: calc((100% - 20px) / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+    background-image: url(../../assets/images/offer-1-DP1lQ_lP.jpg);
+}
+.right .two{
+    height: calc((100% - 20px) / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+    background-image: url(../../assets/images/offer-2-Cly2vTNH.jpg)
+}
+
+.right .one p {
+    margin: 0;
+}
+.right .two p {
+    margin: 0;
+}

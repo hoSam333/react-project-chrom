@@ -1,0 +1,71 @@
+.Api {}
+
+ .procces{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.procces div{
+    background-color: var(--main-color);
+    cursor: pointer;
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+.Api .card{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.Api .card img{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+.Api .card img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Details .card_img{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+
+}
+.Details .card_img img{
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+}
+.Details .card_img img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.det{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    gap: 15px;
+}
+.det b:first-child{
+    color: var(--main-color);
+}
+.det button{
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+.det button:hover{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+
